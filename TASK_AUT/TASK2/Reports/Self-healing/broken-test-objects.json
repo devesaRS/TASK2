@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/decouverte/maison_retraite",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "((//*[@class\u003d\"icons ico_emptyFocusTuile\"])[6])",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/decouverte/maison_retraite_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/fuel_options",
+      "brokenLocator": "//*[@class \u003d \u0027cc-motorization-filters-primary-filters--multi-select wb-multi-select hydrated\u0027 and @ref_element \u003d \u0027Object Repository/car_configurator\u0027 and @ref_element_is_shadow_root \u003d \u0027true\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "*[class\u003d\"cc-motorization-filters-primary-filters--multi-select wb-multi-select hydrated\"]",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/fuel_options_CSS.png"
+    }
+  ]
+}
